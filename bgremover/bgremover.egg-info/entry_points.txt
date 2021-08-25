@@ -1,4 +1,0 @@
-[console_scripts]
-bgremover = main.cli
-bgremover_setup = tools.setup.cli
-

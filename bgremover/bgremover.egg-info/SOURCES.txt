@@ -1,0 +1,17 @@
+README.md
+setup.py
+src/bgremover.egg-info/PKG-INFO
+src/bgremover.egg-info/SOURCES.txt
+src/bgremover.egg-info/dependency_links.txt
+src/bgremover.egg-info/entry_points.txt
+src/bgremover.egg-info/requires.txt
+src/bgremover.egg-info/top_level.txt
+src/libs/__init__.py
+src/libs/basnet.py
+src/libs/networks.py
+src/libs/postprocessing.py
+src/libs/preprocessing.py
+src/libs/strings.py
+src/libs/u2net.py
+src/tools/__init__.py
+src/tools/setup.py

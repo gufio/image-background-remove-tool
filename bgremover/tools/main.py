@@ -70,10 +70,9 @@ def __save_image_file__(img, file_name, output_path, wmode):
                 else:
                     raise e
     else:
-        # Change file extension to png
-        file_name = os.path.splitext(file_name)[0] + '.png'
-        # Save image
-        img.save(os.path.join(output_path, file_name))
+        # Save image as PNG
+        print('file_name', file_name)
+        img.save(os.path.join(output_path, file_name), 'PNG')
 
 
 def process(input_path, output_path, model_name="u2net",
